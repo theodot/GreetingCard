@@ -21,7 +21,7 @@ namespace GreetingCard
         {
             Graphics g = this.CreateGraphics();
             Font f = new Font("Arial", 12);
-            SolidBrush sb = new SolidBrush(Color.Black);
+            SolidBrush sb = new SolidBrush(Color.Blue);
 
             g.DrawString("GREETING CARD", f, sb, 50, 50);
         }
